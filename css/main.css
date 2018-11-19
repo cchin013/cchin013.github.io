@@ -1,0 +1,114 @@
+body {
+    color: gainsboro;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: blue;
+}
+
+#topOfPage {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.up {
+    color: cornflowerblue;
+}
+
+.up:hover {
+    color: springgreen;
+}
+
+.loadingbarcontainer {
+    width: 100%;
+    height: 0px;
+    background: beige;
+}
+
+.loadingbar {
+    height: 2px;
+    background: cyan;
+    width: 0%;
+}
+
+.jumbotron {
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-position: top center;
+    height: 1080px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lists {
+    list-style: none;
+}
+
+.profile {
+    background-color: white;
+}
+
+.exp {
+    background-color: beige;
+}
+
+.heading {
+    color: teal;
+}
+
+.footer {
+    background-color: gray;
+    height: 200px;
+    align-items: center;
+    display: flex;
+}
+
+.foot {
+    color: gainsboro;
+}
+
+.white {
+    color: white;
+}
+
+.bl {
+    color: black;
+}
+
+.bl:hover {
+    color: mediumvioletred;
+    text-decoration: none;
+}
+
+.white:hover {
+    color: blue;
+}
+
+.skills {
+    transition: transform 0.2s;
+}
+
+.skills:hover {
+    transform: scale(1.05);
+    background-color: lightcyan;
+}
+
+a:hover {
+    color: aqua;
+    text-decoration: none;
+}
+
+.ptext {
+    color: black;
+}
+
+.subheading {
+    color: lightseagreen;
+}
